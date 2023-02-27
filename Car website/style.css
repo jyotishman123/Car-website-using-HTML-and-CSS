@@ -1,0 +1,550 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Bebas Neue', cursive;
+}
+header{
+    max-width: 100%;
+    padding-left: 2%;
+    padding-right: 2%;
+    position: sticky;
+    top: 0;
+    background-color: black;
+    z-index: 5;
+     
+}
+nav{
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+    
+     
+}
+.navmenu{
+    
+    flex: 0.9;
+    text-align: center;
+}
+.navmenu ul{
+    display: inline-block;
+    list-style-type: none;
+  
+}
+
+.navmenu ul li a:hover{
+    color: red;
+     font-size: 30px;
+}
+.navmenu ul li{
+    display: inline-block;
+    padding: 0 15px;
+}
+ 
+
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.btn{
+     background-color: red;
+    padding: 5px 25px;
+    border-radius: 10px;
+     
+}
+.btn:hover{
+    background-color: white;
+    color:red;
+}
+section{
+
+    min-height: 550px;
+    background-color: black;
+    max-width: 100%;
+    padding-left: 2%;
+    padding-right: 2%;
+    position: relative;
+}
+.main{
+     
+    padding-top: 100px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.col{
+    flex-basis: 45%;
+    min-width: 300px;
+}
+.col img{
+    width: 100%;
+}
+.col h1, p, a{
+    line-height: 60px;
+}
+.col h1{
+    font-size: 60px;
+}
+ .col p{
+     font-size: 40px;
+ }
+ .dra{
+     color: red;
+ }
+ .me{
+     color: red;
+ }
+ .more{
+     color: red;
+     background-color: white;
+     padding: 1px 2px;
+     border-radius: 6px;
+    
+ }
+ .btn1{
+     background-color: red;
+     padding: 5px 10px;
+     border-radius: 7px;
+ }
+ .sub{
+     min-height: 600px;
+     background-color: black;
+ }
+ .sub{
+     padding-top: 100px;
+   
+      
+ }
+ .scorpio{
+     
+     text-align: center;
+      
+
+ }
+ .container{
+     
+     max-width: 80%;
+     margin: 100px auto;
+     position: relative;
+     display: flex;
+     flex-wrap: wrap;
+      
+      
+ }
+
+ .first{
+     flex-basis: 72%;
+     margin: auto;
+ }
+ .second{
+     flex-basis: 22%;
+     margin: auto;
+ }
+ .second h1{
+     letter-spacing: 5px;
+ }
+ .second p{
+     color: white;
+     line-height: 25px;
+ }
+ .para{
+     color: red;
+ }
+ .formarea{
+     background-color:whitesmoke;
+     height: 390px;
+     padding-top: 100px;
+ }
+ .rr{
+     color: red;
+ }
+ .heading{
+     
+     text-align: center;
+      
+ }
+  
+  input:focus{
+      outline: none;
+  }
+
+  input{
+      background-color:none;
+      border-bottom: 1px solid black;
+       outline: none;
+        width: 250px;
+        background-color: whitesmoke;
+         border-top: none;
+         border-left: none;
+         border-right: none;
+         margin-left: 20px;
+
+        
+  }
+  form{
+
+     
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+
+  }
+  .btn2{
+      background-color: red;
+      color: whitesmoke;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 7px;
+      letter-spacing: 2px;
+      margin-top: 10px;
+  }
+  .btn2:hover{
+      background-color: whitesmoke;
+      color: red;
+      
+    
+    }
+
+    footer{
+        height: auto;
+         background-color:black;
+          max-width: 100%;
+          margin-top: 25px;
+           padding: 5% 5%;
+    }
+    .ok{
+        color: red;
+    }
+
+    .footer1{
+        display: flex;
+        
+    }
+
+    .foottwo{
+        flex: 1;
+        text-align: right;
+    }
+
+    .line{
+        margin-top: 50px;
+
+    }
+    .line h6{
+        text-align: center;
+        margin-top: 5px;
+        font-weight: 100;
+        letter-spacing: 1px;
+    }
+
+  
+  
+   
+  
+       
+ 
+
+    /*-----------spares parts page start from here-------*/
+
+
+ .sparesparts{
+     min-height: 500px;
+ }
+
+   .heading h1{
+       text-align: center;
+       margin-top: 40px;
+   } 
+   .images img{
+       width: 350px;
+        
+   }
+   .product{
+        
+       width: 60%;
+       margin: 50px auto;
+   }
+
+  .images{
+      text-align: center;
+  }
+
+  .amet{
+      color: red;
+  }
+
+  .select1{
+      border: 1px solid red; 
+       
+  }
+  .select1:focus{
+      outline: none;
+  }
+
+  .one{
+       background-color: transparent;
+        background-color: red;
+  }
+
+
+  .buy{
+    margin-top: 15px;
+  }
+  .buy a{
+      background-color:gainsboro;
+      padding: 10px 20px;
+      border-radius: 7px;
+     
+
+  }
+
+  .buy a:hover{
+      background-color: transparent;
+       
+  }
+  .mobilelogo
+  {
+      display: none;
+  }
+  .mobilelogo{
+      width: 50%;
+        
+       text-align: right;
+      margin-right: 1%;
+       
+  }
+  .mobilemenu{
+      position: absolute;
+      background-color: red;
+      right: 10%;
+      
+  }
+  .mobilemenu ul{
+      list-style-type: none;
+      width: 200px;
+       height: auto;
+       padding-bottom: 10px;
+  }
+  .mobilemenu ul li{
+      text-align: center;
+  }
+  .registerform{
+      display: none;
+  }
+   
+  
+  @media(max-width: 666px){
+
+
+
+    .col-1 img{
+        margin-bottom: 50px;
+    }
+  }
+  
+  
+  @media(max-width: 630px)
+  {
+      
+        .navmenu{
+            display: none;
+        }  
+        
+     
+        .mobilelogo{
+            display: block;
+        }
+        .mobilemenu{
+            display:none;
+        }
+          
+        .mobilelogo:hover .mobilemenu{
+            display: block;
+        }
+       
+        .images img{
+            width: 150px;
+        }
+
+        .ac{
+            position: fixed;
+            bottom: 10px;
+            right: 5px;
+            z-index: 5;
+        }
+          .registerform{
+              display: block;
+               
+          }
+          .loginform{
+              text-align: center;
+          }
+           .col img{
+               margin-top: 50px;
+           }
+    }
+    @media(max-width: 555px)
+    {
+
+        .first{
+            text-align: center;
+              margin-bottom: 20px;
+        }
+        .loginform{
+            width: 30%;
+        }
+        .loginform{
+            text-align: center;
+        }
+         
+    }
+             
+    
+   
+
+   .loginform{
+       position: absolute;
+       top:200px;
+       right: 50%;
+       width: 300px;
+       background-color:white;
+       padding: 20px 0;
+       display: none;
+       box-shadow: 0 0 25px 0px rgb(0 0 0 / 10%);
+       transform: translateX(50%);
+       
+   }
+
+   .ac{
+       transform: translateY(30%);
+   }
+
+   .loginform input{
+       width: 150px;
+       border-left: none;
+       border-top: none;
+       border-right: none;
+       background-color:white;
+       margin: 10px 0;
+       
+   }
+
+   .sbt{
+       background-color:  red;
+       color: white;
+       padding: 6px 15px;
+       border-radius: 10px;
+       border: none;
+   }
+
+   .acco:hover .loginform{
+       display: block;
+   }
+   /*--booking section start from here--*/
+
+   .bookingcotainer{
+       width: 90%;
+       
+       margin: 150px auto;
+   }
+
+   .main-row{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-wrap: wrap;
+   }
+
+   .col-1{
+       min-width: 300px;
+        flex-basis: 45%;
+        
+        
+   }
+   .col-1 img{
+       width: 100%;
+   }
+
+   .col-1{
+
+    text-align: center;
+   }
+
+   .booknow{
+       border: 1px solid red;
+       padding: 10px 15px;
+       border-radius: 10px;
+   }
+
+   .booknow:hover{
+       background-color:gainsboro;
+       border: none;
+   }
+   .bookingarea{
+      
+       width: 90%;
+       margin: 150px auto;
+                 
+        height: auto;
+       position: relative;
+   }
+
+   .f{
+
+            width:50px ;
+             background-color: red;
+
+   }
+
+   .f h2{
+        margin-left: 50%;
+       
+   }
+
+   .s{
+       margin-left: 9%;
+       width: 95%;
+        
+       position: absolute;
+       top: 0;
+        
+   }
+
+.bookhead{
+    
+    text-align: center;
+    margin:150px auto;
+}  
+
+
+/*---contact section start from here--*/
+.contactarea{
+    margin: 150px auto;
+    
+    max-width: 90%;
+    padding: 2% 2%;
+}
+.formplace{
+    width: 50%;
+    margin: 50px auto;
+    box-shadow: 0 0 25px 0px rgb(0 0 0 / 10%);
+}
+
+.conbtn{
+    background-color: red;
+    color: white;
+    padding: 7px 17px;
+    border: none;
+    border-radius: 10px;
+}
+textarea:focus
+{
+    outline: none;
+}
